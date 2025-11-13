@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     EditText text_id,text_name,text_number;
     Button button_insert,button_update,button_delete,button_query;
     ListView lv;
+    ListView lv1;
     ArrayList<String> mylist;
     ArrayAdapter<String> myadapter;
     SQLiteDatabase mydatabase;
