@@ -40,14 +40,7 @@ public class MainActivity extends AppCompatActivity {
         button_insert = findViewById(R.id.button_insert);
         button_update = findViewById(R.id.button_update);
         button_query = findViewById(R.id.button_query);
-        button_delete = findViewById(R.id.button_delete);
-        button_insert = findViewById(R.id.button_insert);
-        button_update = findViewById(R.id.button_update);
-        button_query = findViewById(R.id.button_query);
-        button_delete = findViewById(R.id.button_delete);
-        button_insert = findViewById(R.id.button_insert);
-        button_update = findViewById(R.id.button_update);
-        button_query = findViewById(R.id.button_query);
+
         lv = findViewById(R.id.lv);
         mylist = new ArrayList<>();
         myadapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,mylist);
